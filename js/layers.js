@@ -4,9 +4,8 @@ addLayer("p", {
     position: 0, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
 	    upgrades: {        11: {
 
-        
-
-    },
+	    },
+		       
     startData() { return {
         unlocked: true,
 		points: new Decimal(0),
